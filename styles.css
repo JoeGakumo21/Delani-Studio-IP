@@ -30,7 +30,7 @@
 .logo{
     position: absolute;
     top:30%;
-    left: 46.5%;
+    left: 48.5%;
 }
 /* end of welcome section */
 /* about section */
@@ -54,8 +54,10 @@
 }
 .passage{
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 /* section skills */
+
 #design{
     margin-left: 44%;
 }
@@ -65,4 +67,11 @@
 #prdmngt{
     margin-left:44%;
     text-align: center;
+}
+.passages{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.portfolio{
+    margin-left: 10%;
 }
