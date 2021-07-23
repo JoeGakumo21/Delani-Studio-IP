@@ -75,3 +75,24 @@
 .portfolio{
     margin-left: 10%;
 }
+h3{
+    display: none;
+}
+#contact{
+    height: 70vh;
+    background-image: url("assets/background/c_image.jpg");
+}
+#form{
+margin-left:28%;
+margin-top: 7rem;
+
+}
+#textareamessage{
+    margin-left:30%;
+    background-color: transparent;  
+    border: 1px solid #fff; 
+}
+.form-control{
+    border: 1px solid #fff;
+    background-color: transparent;
+}
