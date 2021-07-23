@@ -55,3 +55,14 @@
 .passage{
     font-size: 1.5rem;
 }
+/* section skills */
+#design{
+    margin-left: 44%;
+}
+#development{
+    margin-left: 44%;
+}
+#prdmngt{
+    margin-left:44%;
+    text-align: center;
+}
