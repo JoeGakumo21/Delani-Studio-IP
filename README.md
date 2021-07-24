@@ -17,6 +17,8 @@ This project was created on 24th July 2021
 * BOOTSTAP
 * JAVASCRIPT
 * JQUERY
+# live link
+<a href="https://joegakumo21.github.io/Delani-Studio-IP/">Delani Studio Website</a>
 
 # Contact Me
  Incase of any issue or more details feel free to contact me via:
