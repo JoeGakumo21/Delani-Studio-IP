@@ -75,7 +75,7 @@
 .portfolio{
     margin-left: 10%;
 }
-h3{
+h3, .designhide, .devhide, .prdhide{
     display: none;
 }
 #contact{
