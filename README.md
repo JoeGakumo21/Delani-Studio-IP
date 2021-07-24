@@ -34,6 +34,6 @@ This project was created on 24th July 2021
 
 
 
-{find the attached licence docuemnt attached  }
+{find the attached licence document }
 <a href="https://choosealicense.com/licenses/mit/#">MIT LICENCE</a>
 &copy; 2021
