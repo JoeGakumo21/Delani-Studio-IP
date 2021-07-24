@@ -27,5 +27,9 @@ $(document).ready(function(){
         $("#prdmngt").show(3000);
         $(".prdhide").hide(3000);
     });
+    $("#portfolio1").hover(()=>{
+        $(".games").show(2000);
+        
+    });
 
 });
