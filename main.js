@@ -27,9 +27,88 @@ $(document).ready(function(){
         $("#prdmngt").show(3000);
         $(".prdhide").hide(3000);
     });
-    $("#portfolio1").hover(()=>{
-        $(".games").show(2000);
-        
+
+    // =====================portfolio message display and hind============================//
+    $("#portfolio1").mouseover(function(){
+        $(".games").show();
+        $("#portfolio1").css("opacity","0.7");
+    $("#portfolio1").mouseout(()=>{
+            $(".games").hide();
+            $("#portfolio1").css("opacity","10");
+        });
+
+        //For hide that displayed text
     });
+    $("#portfolio4").mouseout(()=>{
+        $(".blank").hide();
+        $("#portfolio4").css("opacity","10")
+    });
+    $("#portfolio4").mouseover(function(){
+        $(".blank").show();
+        $("#portfolio4").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio3").mouseout(()=>{
+        $(".ontario").hide();
+        $("#portfolio3").css("opacity","10");
+    });
+    $("#portfolio3").mouseover(function(){
+        $(".ontario").show();
+        $("#portfolio3").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio2").mouseout(()=>{
+        $(".diamond").hide();
+        $("#portfolio2").css("opacity","10");
+    });
+    $("#portfolio2").mouseover(function(){
+        $(".diamond").show();
+        $("#portfolio2").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio5").mouseout(()=>{
+        $(".nature").hide();
+        $("#portfolio5").css("opacity","10");
+    });
+    $("#portfolio5").mouseover(function(){
+        $(".nature").show();
+        $("#portfolio5").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio6").mouseout(()=>{
+        $(".fun").hide();
+        $("#portfolio6").css("opacity","10");
+    });
+    $("#portfolio6").mouseover(function(){
+        $(".fun").show();
+        $("#portfolio6").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio7").mouseout(()=>{
+        $(".burned-logo").hide();
+        $("#portfolio7").css("opacity","10");
+    });
+    $("#portfolio7").mouseover(function(){
+        $(".burned-logo").show();
+        $("#portfolio7").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+    $("#portfolio8").mouseout(()=>{
+        $(".giraffee").hide();
+        $("#portfolio8").css("opacity","10");
+    });
+    $("#portfolio8").mouseover(function(){
+        $(".giraffee").show();
+        $("#portfolio8").css("opacity","0.7");
+
+        //For hide that displayed text
+    });
+  
 
 });
