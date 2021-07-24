@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border:1px dashed limegreen;
 }
 .home{
    background-image: url("assets/background/h_img.jpg");
@@ -81,10 +82,12 @@ h3{
 #contact{
     height: 70vh;
     background-image: url("assets/background/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #form{
 margin-left:28%;
-margin-top: 7rem;
+margin-top: 2rem;
 
 }
 #textareamessage{
@@ -95,4 +98,82 @@ margin-top: 7rem;
 .form-control{
     border: 1px solid #fff;
     background-color: transparent;
+}
+.btn{
+    margin-left: 50%;
+}
+/* social media */
+.social-icons{
+    margin-left: 40%;
+}
+/* responsiveness */
+@media screen and (max-width:1250px){
+    #textareamessage{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #contact{
+        height: auto;
+    }
+    .portfolio{
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (max-width:1100px){
+    #textareamessage{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #contact{
+        height: auto;
+    }
+    .portfolio{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .social-icons{
+        margin: auto;
+    }
+}
+@media screen  and (max-width:1000px){
+    .portfolio{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .social-icons{
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:900px){
+    #textareamessage{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #contact{
+        height: auto;
+    }
+    .portfolio{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .social-icons{
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:700px){
+    #textareamessage{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #contact{
+        height: auto;
+    }
+    .portfolio{
+        margin-left: 0%;
+        width: 100%;
+    }
+    
 }
