@@ -32,7 +32,7 @@ $(document).ready(function(){
     $("#portfolio1").mouseover(function(){
         $(".games").show();
         $("#portfolio1").css("opacity","0.7");
-    $("#portfolio1").mouseout(()=>{
+        $("#portfolio1").mouseout(()=>{
             $(".games").hide();
             $("#portfolio1").css("opacity","10");
         });
@@ -109,6 +109,18 @@ $(document).ready(function(){
 
         //For hide that displayed text
     });
-  
+
 
 });
+//   form validation
+ function formValidation() {
+    let username=document.forms["form"]["username"].value;
+    let email=document.forms["form"]["email"].value;
+    let message=document.forms["form"]["message"].value;
+
+    if(username=="" || email=="" || message==""){
+        alert("All fields must be filled");
+    }else{
+        alert(`username:${username},\n email address: ${email},\n we appreciate alot for choosing Delani studion to serve you, we have received your message, Thank you for reaching to us. \n received by JoeGakumo`);
+    }
+}
