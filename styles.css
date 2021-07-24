@@ -78,11 +78,85 @@
 h3, .designhide, .devhide, .prdhide{
     display: none;
 }
+/* ============================== */
+#portfolio4{
+    background-image: url("assets/portfolio/work4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio3{
+
+    background-image: url("assets/portfolio/work3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio2{
+    
+    background-image: url("assets/portfolio/work2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio1{
+   
+    background-image: url("assets/portfolio/work1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio5{
+    background-image: url("assets/portfolio/work5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio6{
+
+    background-image: url("assets/portfolio/work6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio7{
+    
+    background-image: url("assets/portfolio/work7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+#portfolio8{
+   
+    background-image: url("assets/portfolio/work8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 400px;
+    margin-left: 4rem;
+}
+
+/* ============================== */
 #contact{
     height: 70vh;
     background-image: url("assets/background/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 #form{
 margin-left:28%;
