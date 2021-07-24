@@ -149,6 +149,17 @@ h3, .designhide, .devhide, .prdhide{
     width: 400px;
     margin-left: 4rem;
 }
+/* text to show styling */
+.games, .blank, .ontario, .diamond, .nature, .fun, .burned-logo, .giraffee{
+    border: 10px solid #fff;
+    height: 320px;
+    margin: 20px auto;
+    padding-top:4rem;
+    width: 380px;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
 
 /* ============================== */
 #contact{
