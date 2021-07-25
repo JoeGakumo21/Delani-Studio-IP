@@ -27,6 +27,18 @@ $(document).ready(function(){
         $("#prdmngt").show(3000);
         $(".prdhide").hide(3000);
     });
+    $(".designhide1").click(()=>{
+        $("#design").toggle(3000);
+        $(".designhide").show(3000);
+    });
+    $(".devhide1").click(()=>{
+        $("#development").toggle(3000);
+        $(".devhide").show(3000);
+    });
+    $(".prdhide1").click(()=>{
+        $("#prdmngt").toggle(3000);
+        $(".prdhide").show(3000);
+    });
 
     // =====================portfolio message display and hind============================//
     $("#portfolio1").mouseover(function(){
