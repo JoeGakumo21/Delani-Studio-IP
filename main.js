@@ -29,21 +29,21 @@ $(document).ready(function(){
     });
     $(".designhide1").click(()=>{
         $("#design").toggle(3000);
-        $(".designhide").show(3000);
+        $(".designhide").toggle(3000);
     });
     $(".devhide1").click(()=>{
         $("#development").toggle(3000);
-        $(".devhide").show(3000);
+        $(".devhide").toggle(3000);
     });
     $(".prdhide1").click(()=>{
         $("#prdmngt").toggle(3000);
-        $(".prdhide").show(3000);
+        $(".prdhide").toggle(3000);
     });
 
     // =====================portfolio message display and hind============================//
     $("#portfolio1").mouseover(function(){
-        $(".games").show();
-        $("#portfolio1").css("opacity","0.7");
+            $(".games").show();
+            $("#portfolio1").css("opacity","0.7");
         $("#portfolio1").mouseout(()=>{
             $(".games").hide();
             $("#portfolio1").css("opacity","10");
