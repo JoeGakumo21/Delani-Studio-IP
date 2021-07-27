@@ -2,206 +2,266 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delani Studio</title>
-  <!-- bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- custome -->
-  <link rel="stylesheet" href="styles.css">
-  <!-- jquery cdn -->
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delani Studio</title>
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custome -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-<!-- mailchimp link -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <!-- mailchimp link -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <!-- =================================welcoming section ==================================-->
-  <div class="container-fluid home">
-    <section id="Home">
-      <div class="row">
-        <div class="col-md-12 col-lg-12 col-xs-12">
-          <h1 class="text-center text-light text-uppercase mb-5" id="welcome">Welcome</h1>
-          <h1 class="text-light text-uppercase text-center" id="delani">to delani studio</h1>
-          <p class="text-light text-uppercase text-center" id="del">Amazing people are making amazing designs in a fun
-            enviroment</p>
-          <img class="mouse" src="assets/mouse/mouse_click.png" alt="Mouse-pointer">
-          <img class="logo" src="assets/logo/logo.png" alt="Logo image">
-        </div>
-      </div>
-    </section>
-  </div>
-  <!-- end of this section -->
-  <!-- =====================================about scetion ==============================-->
-  <div class="container-fluid">
-    <section id="about">
-      <div class="row">
-        <div class="col-md-12 col-lg-12 col-sm-12">
-          <h1 class="text-dark text-center text-uppercase">about us</h1>
-          <p class="text-dark text-center passage">When you work with us, you are part of a team of committed
-            collaboration. All aspects of our software development process are integrated, interactive<br><span
-              class="text-dark.text-center">and agile</span></p>
-          <p class="text-center text-dark passage">Our approach unifies design, development and product management to
-            create exceptional products.</p>
-          <p class="text-center text-dark passage">We start each project by undestanding your bussiness goals, the
-            user's needs and the production requirements</p>
-          <p class="text-center passage">Then we help translate into effective and elegant solutions.</p>
-        </div>
-      </div>
-    </section>
-  </div>
+    <!-- =================================welcoming section ==================================-->
+    <div class="container-fluid home">
+        <div id="Home">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xs-12 home1">
+                    <img class="logo" src="assets/logo/logo.png" alt="Logo image">
+                    <h1>WELCOME</h1>
+                    <h1>TO DELANI STUDIO</h1>
+                    <p class="text-uppercase">Amazing people are making amazing designs in a fun
+                        enviroment</p>
 
-  <!-- end of section -->
-  <div class="container-fluid">
-    <section id="services">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h1 class="text-light text-center text-uppercase services">
-            services
-          </h1>
-          <p class="text-light text-center passage">Before we sign a contract or a write a line of code our team will
-            send the neccessary time needed to undestand your production vision<br><span
-              class="text-light text-center">The outcome of this scoping is a proposal or high-level statementof
-              work,</span><br><span class="text-center text-light">based on your requirements, we can provide acomplete
-              offering or just the piece you need.</span></p>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!-- ===========================end of section service====================================-->
-  <!-- skills section -->
-  <div class="container-fluid mt-5">
-    <section id="skills">
-      <div class="row">
-        <h1 class="text-dark text-center text-uppercase mb-4">What we do</h1>
-        <div class="col-lg-4 col-md-6 mb-5">
-          <img src="assets/service_icons/design_icon.png" alt="Design image" id="design">
-          <h2 class="text-dark text-uppercase text-center mb-3 designhide1">Design</h2>
-          <p class="text-dark text-center  passages designhide">The tool to bring interactive to your design, you brain is a creative
-            machine.<br>Genially is the tool that can enhance your design by adding interactive and animation to them.<br>This can be achieved easily without having any programming knowlegde.<br>Genially makes your creative work shine. Whether you work as a team or as a freelancer. It’s the perfect fit for curious people looking for new solutions.<br>Forget the idea that you need to know how to program to create interactive designs. <br>Use Genially to create an interactive image, portfolio, or interactive microsite without programming anything. Already have the material ready? <br>Bring it to life with Genially in a few simple steps.
-          </p>
-
-        </div>
-        <div class="col-lg-4 col-md-6 mb-5">
-          <img src="assets/service_icons/dev_icon.png" alt="Design image" id="development">
-          <h2 class="text-dark text-uppercase text-center mb-3 devhide1">Development</h2>
-          <p class="text-center text-dark  passages devhide">
-            The word 'development' is widely used to refer to a specified <br>state of advancement or growth. <br>It could also be used to describe a new and advanced idea or product; or an event that constitutes a new stage under changing circumstances. <br>Generally, the term development describes good change.<br>
-            According to IBM Research: “Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.”<br> Programming software to give programmers tools such as text editors, compilers, linkers, debuggers and other tools to create code.</p>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <img src="assets/service_icons/product_icon.png" alt="Design image" id="prdmngt">
-          <h2 class="text-dark text-uppercase text-center mb-3 prdhide1">Product management</h2>
-          <p class="text-center text-dark  passages prdhide">Product management is an organizational function that guides every step of a product's lifecycle: from development, <br>to positioning and pricing, by focusing on the product and its customers first and foremost.To build the best possible product, product managers advocate for customers within the organization and make sure the voice of the market is heard and heeded.<br>Thanks to this focus on the customer, product teams routinely ship better-designed and higher-performing products.<br> In tech, where entrenched products are quickly uprooted by newer and better solutions, there is more need than ever for an intimate understanding <br>of customers and the ability to create tailored solutions for them. That’s where product management comes in.</p>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <!-- end of skills section -->
-<!-- ========================================portfolio section========================= -->
-<div class="container-fluid mt-5">
-  <div class="row mb-3 ">
-    <h1 class="text-dark text-center text-uppercase mt-3 mb-5">portfolio</h1>
-    <div class="col-lg-3 col-md-4  col-sm-6 col-xs-12 mb-3 portfolio4" id="portfolio4">
-      <h3 class="text-light text-center text-uppercase blank">Blank background <br>dark </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio3">
-      <h3 class="text-light text-center text-uppercase ontario">Mighty Ontario<br>Logo Designers </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio2">
-      <h3 class="text-light text-center text-uppercase diamond">Design Diamond<br>Image </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio1">
-
-      <h3 class="text-light text-center text-uppercase games">Jim Carrey<br>Kids Games </h3>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio5">
-      <h3 class="text-light text-center text-uppercase nature">Explore Nature <br> website </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio6">
-      <h3 class="text-light text-center text-uppercase fun">For fun calculator<br>Game Website </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio7">
-      <h3 class="text-light text-center text-uppercase burned-logo">Burned Logo<br> mock-up Website </h3>
-    </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3" id="portfolio8">
-      <h3 class="text-light text-center text-uppercase giraffee">Giraffee<br>Restaurant <br>website </h3>
-    </div>
-  </div>
-</div>
-<!-- =================================end of portfolio section======================== -->
-<!-- =======================section contact================= -->
-<div class="container-fluid">
-  <section id="contact">
-    <div class="row">
-      <div class="col">
-        <form action="https://gmail.us6.list-manage.com/subscribe/post?u=b2b4d8e7ec6b18c2c194577cc&amp;id=7203869073" onsubmit="return false" method="post" name="form">
-          <h1 class="text-light text-center text-uppercase mt-5">Contact us</h1>
-            <div class="row mb-3" id="form">
-              <div class="col-4">
-                <input type="text" name="NAME" id="username" placeholder="Name...." class="form-control">
-              </div>
-              <div class="col-4">
-                <input type="email" name="EMAIL" id="email" placeholder="Email...." class="form-control">
-              </div>
+                </div>
             </div>
             <div class="row">
-              <div class="col">
-                <textarea name="message" id="textareamessage" cols="90" rows="12" placeholder="Your message here" class="text-light mb-2" ></textarea>
+                <div class="col-12">
+                    <p class="text-center"><img class="mouse" src="assets/mouse/mouse_click.png" alt="Mouse-pointer">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of this section -->
+    <!-- =====================================about scetion ==============================-->
+    <!-- =====================================about scetion ==============================-->
+    <div class="container-fluid">
+        <section id="about">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <h1 class="text-dark text-center text-uppercase">about us</h1>
+                    <p class="text-dark text-center passage">When you work with us, you are part of a team of committed
+                        collaboration. All aspects of our software development process are integrated,
+                        interactive<br><span class="text-dark.text-center">and agile</span></p>
+                    <p class="text-center text-dark passage">Our approach unifies design, development and product
+                        management to
+                        create exceptional products.</p>
+                    <p class="text-center text-dark passage">We start each project by undestanding your bussiness goals,
+                        the
+                        user's needs and the production requirements</p>
+                    <p class="text-center passage">Then we help translate into effective and elegant solutions.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- end of section -->
+    <!-- services section -->
+    <div class="container-fluid">
+        <section id="services">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="text-light text-center text-uppercase services">
+                        services
+                    </h1>
+                    <p class="text-light text-center passage">Before we sign a contract or a write a line of code our
+                        team will
+                        send the neccessary time needed to undestand your production vision<br><span
+                            class="text-light text-center">The outcome of this scoping is a proposal or high-level
+                            statementof
+                            work,</span><br><span class="text-center text-light">based on your requirements, we can
+                            provide acomplete
+                            offering or just the piece you need.</span></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- ===========================end of section service====================================-->
+    <!-- skills section -->
+    <div class="container-fluid mt-5">
+        <section id="skills">
+            <div class="row">
+                <h1 class="text-dark text-center text-uppercase mb-4">What we do</h1>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="assets/service_icons/design_icon.png" alt="Design image" id="design">
+                    <h2 class="text-dark text-uppercase text-center mb-3 designhide1">Design</h2>
+                    <p class="text-dark text-center  passages designhide">The tool to bring interactive to your design,
+                        you brain is a creative
+                        machine.<br>Genially is the tool that can enhance your design by adding interactive and
+                        animation to them.<br>This can be achieved easily without having any programming
+                        knowlegde.<br>Genially makes your creative work shine. Whether you work as a team or as a
+                        freelancer. It’s the perfect fit for curious people looking for new solutions.<br>Forget the
+                        idea that you need to know how to program to create interactive designs. <br>Use Genially to
+                        create an interactive image, portfolio, or interactive microsite without programming anything.
+                        Already have the material ready? <br>Bring it to life with Genially in a few simple steps.
+                    </p>
+
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <img src="assets/service_icons/dev_icon.png" alt="Design image" id="development">
+                    <h2 class="text-dark text-uppercase text-center mb-3 devhide1">Development</h2>
+                    <p class="text-center text-dark  passages devhide">
+                        The word 'development' is widely used to refer to a specified <br>state of advancement or
+                        growth. <br>It could also be used to describe a new and advanced idea or product; or an event
+                        that constitutes a new stage under changing circumstances. <br>Generally, the term development
+                        describes good change.<br>
+                        According to IBM Research: “Software development refers to a set of computer science activities
+                        dedicated to the process of creating, designing, deploying and supporting software.”<br>
+                        Programming software to give programmers tools such as text editors, compilers, linkers,
+                        debuggers and other tools to create code.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="assets/service_icons/product_icon.png" alt="Design image" id="prdmngt">
+                    <h2 class="text-dark text-uppercase text-center mb-3 prdhide1">Product management</h2>
+                    <p class="text-center text-dark  passages prdhide">Product management is an organizational function
+                        that guides every step of a product's lifecycle: from development, <br>to positioning and
+                        pricing, by focusing on the product and its customers first and foremost.To build the best
+                        possible product, product managers advocate for customers within the organization and make sure
+                        the voice of the market is heard and heeded.<br>Thanks to this focus on the customer, product
+                        teams routinely ship better-designed and higher-performing products.<br> In tech, where
+                        entrenched products are quickly uprooted by newer and better solutions, there is more need than
+                        ever for an intimate understanding <br>of customers and the ability to create tailored solutions
+                        for them. That’s where product management comes in.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- end of skills section -->
+    <!-- ========================================portfolio section========================= -->
+    <div class="container-fluid">
+        <div class="row portfolios">
+            <h1 class="text-dark text-center text-uppercase">portfolio</h1>
+            <div class="col-sm-3 portfolio" id="portfolio4">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work4.jpg" alt="">
+                    <h3 class="text-light text-center text-uppercase blank">PROJECT4</h3>
+                </div>
+            </div>
+            <div class="col-sm-3 portfolio" id="portfolio3">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work3.jpg" alt="">
+                    <h3 class="text-light text-center text-uppercase ontario">PROJECT3 </h3>
+                </div>
+            </div>
+            <div class="col-sm-3 portfolio" id="portfolio2">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work2.jpg" alt="">
+                    <h3 class="text-center text-uppercase diamond">PROJECT2</h3>
+                </div>
+            </div>
+            <div class="col-sm-3 portfolio" id="portfolio1">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work1.jpg" alt="">
+                    <h3 class="text-light text-center text-uppercase games">PROJECT1 </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row portfolios">
+            <div class="col-sm-3 portfolio" id="portfolio5">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work5.jpg" alt="">
+                    <h3 class="text-light text-center text-uppercase nature">PROJECT5</h3>
+                </div>
+            </div>
+            <div class=" col-sm-3 portfolio" id="portfolio6">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work6.jpg" alt="portfolio6">
+                    <h3 class="text-light text-center text-uppercase fun">PROJECT6</h3>
+                </div>
+            </div>
+            <div class="col-sm-3 portfolio" id="portfolio7">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work7.jpg" alt="portfolio7">
+                    <h3 class="text-light text-center text-uppercase burned-logo">PROJECT7 </h3>
+                </div>
+            </div>
+            <div class="col-sm-3 portfolio" id="portfolio8">
+                <div class="thumbnail">
+                    <img src="assets/portfolio/work8.jpg" alt="portfolio8">
+                    <h3 class="text-light text-center text-uppercase giraffee">PROJECT8 </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =================================end of portfolio section======================== -->
+    <!-- =======================section contact================= -->
+<div class="container-fluid">
+    <section id="contact">
+      <div class="row">
+        <div class="col">
+            <h1 class="text-light text-center text-uppercase mt-5">Contact us</h1>
+          <form action="https://gmail.us6.list-manage.com/subscribe/post?u=b2b4d8e7ec6b18c2c194577cc&amp;id=7203869073" onsubmit="return false" method="post" name="form">
+        
+              <div class="row mb-3" id="form">
+                <div class="col-4">
+                  <input type="text" name="NAME" id="username" placeholder="Name...." class="form-control">
+                </div>
+                <div class="col-4">
+                  <input type="email" name="EMAIL" id="email" placeholder="Email...." class="form-control">
+                </div>
+              </div></div>
+              <div class="row mb-5">
+              <textarea name="message" id="textareamessage"  rows="12" placeholder="Your message here" class="form-group col-8" ></textarea>
               </div>
-            </div>            
-            <button class="text-light btn btn-long bg-dark" onclick="return formValidation()">Sumbit</button>
-        </form>
+              <div class="row">
+              <button class="text-light btn bg-dark col-6 mb-3" onclick="return formValidation()">Sumbit</button>
+              </div>             
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- =======================end ==================== -->
+  <!-- ====================social media section================== -->
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-6 social-icons mt-3">
+        <img src="assets/social_icons/twitter.png" alt="fa-twitter icon">
+        <img src="assets/social_icons/you_tube.png" alt="fa-youtube icon">
+        <img src="assets/social_icons/facebook.png" alt="fa-facebook icon">
+        <img src="assets/social_icons/g_plus.png" alt="fa-google plus icon">
+        <img src="assets/social_icons/skype.png" alt="fa-skype icon">
+        <img src="assets/social_icons/stumble_upon.png" alt="fa-stumbleupon icon">
+        <img src="assets/social_icons/behance.png" alt="fa-behance icon">
+        <img src="assets/social_icons/pinterest.png" alt="fa-pinterest-p icon">
+        <img src="assets/social_icons/flickr.png" alt="fa-flickr icon">
       </div>
     </div>
-  </section>
-</div>
-<!-- =======================end ==================== -->
-
-<!-- ====================social media section================== -->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-6 social-icons mt-3">
-      <img src="assets/social_icons/twitter.png" alt="fa-twitter icon">
-      <img src="assets/social_icons/you_tube.png" alt="fa-youtube icon">
-      <img src="assets/social_icons/facebook.png" alt="fa-facebook icon">
-      <img src="assets/social_icons/g_plus.png" alt="fa-google plus icon">
-      <img src="assets/social_icons/skype.png" alt="fa-skype icon">
-      <img src="assets/social_icons/stumble_upon.png" alt="fa-stumbleupon icon">
-      <img src="assets/social_icons/behance.png" alt="fa-behance icon">
-      <img src="assets/social_icons/pinterest.png" alt="fa-pinterest-p icon">
-      <img src="assets/social_icons/flickr.png" alt="fa-flickr icon">
+  </div>
+  
+  <!-- ======================end of social media section================= -->
+  <!-- ======================end of social media section================= -->
+ <!--====footer=====  -->
+ <div class="container-fluid">
+    <div class="row">
+      <div class="footer mt-3 mb-3">
+        <h4 class="text-center text-secondary text-uppercase">Delani studio<br> 2019</h4>
+      </div>
     </div>
   </div>
-</div>
+  <!-- ====end -->
 
-<!-- ======================end of social media section================= -->
- <!--====footer=====  -->
- <div class="container">
-   <div class="row">
-     <div class="footer mt-3 mb-3">
-       <h4 class="text-center text-secondary text-uppercase">Delani studio<br> 2019</h4>
-     </div>
-   </div>
- </div>
- <!-- ====end -->
-<!-- custome script -->
-  <script src="main.js"></script>
-  <!-- boostrap js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <!-- ====end -->
+    <!-- custome script -->
+    <script src="main.js"></script>
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
